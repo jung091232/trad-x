@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Trad-X",
+    "slug": "trad-x",
+    "scheme": "tradx",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/branding/trad-x-icon-1024.png",
+    "splash": {
+      "image": "./assets/branding/trad-x-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0D1B2A"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/",
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/branding/trad-x-icon-1024.png",
+        "backgroundColor": "#0D1B2A"
+      },
+      "package": "com.tradx.app"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "REPLACE_WITH_YOUR_EAS_PROJECT_ID"
+      }
+    }
+  }
+}
